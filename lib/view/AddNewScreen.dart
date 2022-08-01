@@ -146,6 +146,7 @@ class _AddNewScreenState extends State<AddNewScreen> {
                 maxLines: 5,
                 decoration: InputDecoration(
                     labelText: "Note",
+                    alignLabelWithHint: true,
                     hintText: "Enter Note",
                     labelStyle: TextStyle(color: appColor),
                     helperStyle: TextStyle(color: appColor),
